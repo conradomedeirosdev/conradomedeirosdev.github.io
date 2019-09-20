@@ -12,16 +12,16 @@ body{
     background:#272733;
 }
 #iconmenu{
-float: left;
-width: 20px;
-padding-top: 34px;
-padding-left: 30px;
+    float: left;
+    width: 20px;
+    padding-top: 34px;
+    padding-left: 30px;
 }
 #iconlogo{
-float: left;
-width: 116px;
-padding-top: 30px;
-padding-left: 28px;
+    float: left;
+    width: 116px;
+    padding-top: 30px;
+    padding-left: 28px;
 }
 #search{
     width: 830px;
@@ -50,7 +50,17 @@ padding-left: 28px;
     color: #ffffff;
     text-align: left;
     font-family: 'Muli';
-    font-weight: bold;
+    font-weight: 600;
+}
+.menu-second{
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 18px;
+    width: 10%;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Muli';
+    font-weight: 500;
 }
 ul {
     list-style-type: none;
@@ -59,4 +69,70 @@ ul {
 } 
 .imgmenu{
     margin-right: 10px;
+}
+.imgmenu-second{
+    margin-right: 10px;
+}
+#menu-header{
+    line-height: 40px;
+}
+#menu-second{
+    line-height: 40px;
+}
+#subs{
+    margin-top: 90px;
+    margin-left: 80px;
+    font-size: 18px;
+    width: 10%;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Muli';
+    font-weight: 800;
+}
+#menu-third{
+    line-height: 40px;
+}
+.imgmenu-third{
+    margin-right: 10px;
+    width: 25px;
+}
+.menu-third{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 18px;
+    width: 15%;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Muli';
+    font-weight: 500;
+}
+#setting{
+    margin-top: 90px;
+    margin-left: 80px;
+    font-size: 18px;
+    width: 10%;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Muli';
+    font-weight: 800;
+}
+.imgmenu-setting{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 15%;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Muli';
+    font-weight: 500;
+}
+.imgmenu-setting{
+    margin-right: 10px;
+    width: 25px;
+}
+.channels-first{
+    float: right;
+    width: 90%;
+    text-align: left;
+    margin-top: 200px;
 }
