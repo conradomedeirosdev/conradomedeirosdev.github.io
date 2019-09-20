@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    background-color: #17171E;
+
+}
+.header{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:80px;
+    color:#333;
+    background:#272733;
+}
+#iconmenu{
+float: left;
+width: 20px;
+padding-top: 34px;
+padding-left: 30px;
+}
+#iconlogo{
+float: left;
+width: 116px;
+padding-top: 30px;
+padding-left: 28px;
+}
+#search{
+    width: 830px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+#icontop{
+    width: 175px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 490px;
+}
+#user{
+    width: 40px;
+    float: left;
+    margin-top: 28px;
+    border-radius: 200px;
+    margin-left: 45px;
+}
+.menu-principal{
+    margin-top: 114px;
+    margin-left: 80px;
+    font-size: 18px;
+    width: 10%;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Muli';
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+.imgmenu{
+    margin-right: 10px;
+}
