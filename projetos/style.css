@@ -465,15 +465,20 @@ a{
     width: 50px;
     float: left;
     margin-left: 820px;
+    background-color: white;
+    border-radius: 200px;
 }
 #imgsocial-2{
     width: 50px;
     float: left;
     margin-left: 20px;
-
+    background-color: white;
+    border-radius: 200px;
 }
 #imgsocial-3{
     width: 50px;
     float: left;
     margin-left: 20px;
+    background-color: white;
+    border-radius: 200px;
 }
