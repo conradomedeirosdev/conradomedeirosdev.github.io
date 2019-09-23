@@ -1,4 +1,8 @@
-let num1 = 5;
+let num1 = 15;
 let num2 = 10;
-let maior = num1 < num2;
-console.log(maior);
+if (num1 > num2){
+    console.log(num1);
+}
+else {
+    console.log(num2)
+}
