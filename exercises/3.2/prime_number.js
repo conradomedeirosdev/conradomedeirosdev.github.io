@@ -1,4 +1,4 @@
-let n = 92;
+let n = 82;
 let primo;
 for (i = 2; i <= n; i++){
     if(n == 2){
