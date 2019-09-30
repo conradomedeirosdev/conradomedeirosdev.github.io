@@ -1,3 +1,21 @@
-let n = "X";
-resultado = n.split();
-console.log(resultado);
+/*finanlizando a lógica ainda*/
+let algorism = {
+    I:	1,
+    V:	5,
+    X:	10,
+    L:	50,
+    C:	100,
+    D:	500,
+    M:	1000
+};
+
+
+let n = "XXXXXV";
+resultado = n.split("");
+let arr = []
+let c=0;
+
+for (let numero of n) {
+    arr[c] = algorism[numero];
+    c++;
+}
