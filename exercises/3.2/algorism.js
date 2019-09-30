@@ -15,4 +15,6 @@ resultado = n.split("");
 
 for (let numero of n) {
     console.log(algorism[numero]);
+    
 }
+

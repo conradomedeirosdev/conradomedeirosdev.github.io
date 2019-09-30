@@ -1,4 +1,8 @@
 <html>
+    <head>
+        <style>
+        </style>
+    </head>
   <body>
     <h2 id="page-title">Título</h2>
     <p id="paragraph">Dê uma cor para esse parágrafo!</p>
@@ -6,14 +10,17 @@
     <p id="second-paragraph">Segundo parágrafo!</p>
 
     <script>
-      let paragraph = document.getElementById("paragraph");
+      let paragraph = document.querySelector(".paragraph");
       paragraph.style.color = "red";
+      paragraph.classList.add("paragraphclass");
+
 
       let title = document.getElementById("page-title");
       title.innerHTML = "O poderoso chefão";
 
       let secondparagraph = document.getElementById("second-paragraph");
       secondparagraph.style.backgroundColor = "purple";
+      secondparagraph.classList.add("secondparagraphclass");
 
       let subtitle = document.getElementById("subtitle");
       subtitle.innerHTML = "III";
