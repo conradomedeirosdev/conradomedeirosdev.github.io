@@ -8,7 +8,11 @@ h1 {
 h2 {
 
 }
-
+.content-cat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 img {
 	max-width: 100%;
 }
@@ -25,5 +29,13 @@ figure {
     h1{
         font-size: 30px;
     }
-
+    .content-cat{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    figure{
+        width: 50%;
+    }
 }
