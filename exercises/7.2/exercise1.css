@@ -20,6 +20,7 @@ img {
 figure {
 	margin: 50px 0;
 }
+
 @media screen and (min-width: 490px){
     body{
         background: #0fa36b;
@@ -36,6 +37,25 @@ figure {
         justify-content: space-around;
     }
     figure{
-        width: 50%;
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+        background: #Fda26c;
+        font-size: 30px;
+        margin: 60px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .content-cat{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    figure{
+        width: 45%;
     }
 }
