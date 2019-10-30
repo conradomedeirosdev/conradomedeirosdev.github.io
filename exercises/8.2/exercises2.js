@@ -75,7 +75,9 @@ const expected_result = {
 }
 
 function authorWith3DotsOnName() {
-  // escreva seu código aqui
+    const nome = books.filter( (value) => value.author.birthYear === 1947)
+    return nome.author.name
 }
+
 
 assert.deepEqual(authorWith3DotsOnName(), expected_result);
