@@ -3,22 +3,24 @@ import "../Styles/Main.css";
 
 export class Main extends Component {
   render() {
+    const status = 'Next player: X';
     return (
-      <div className="game">
-        <div className="linha">
-          <div className="casa" id="casa1"></div>
-          <div className="casa" id="casa2"></div>
-          <div className="casa" id="casa3"></div>
+      <div>
+        <div className="status">{status}</div>
+        <div className="board-row">
+          {this.renderSquare(0)}
+          {this.renderSquare(1)}
+          {this.renderSquare(2)}
         </div>
-        <div className="linha">
-          <div className="casa" id="casa4"></div>
-          <div className="casa" id="casa5"></div>
-          <div className="casa" id="casa6"></div>
+        <div className="board-row">
+          {this.renderSquare(3)}
+          {this.renderSquare(4)}
+          {this.renderSquare(5)}
         </div>
-        <div className="linha">
-          <div className="casa" id="casa7"></div>
-          <div className="casa" id="casa8"></div>
-          <div className="casa" id="casa9"></div>
+        <div className="board-row">
+          {this.renderSquare(6)}
+          {this.renderSquare(7)}
+          {this.renderSquare(8)}
         </div>
       </div>
     );
