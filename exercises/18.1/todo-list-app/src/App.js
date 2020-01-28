@@ -1,10 +1,12 @@
 import React from 'react';
+import Navbar from './Componentes/Navbar';
 import TodoList from './Componentes/TodoList'
-import './App.css';
+
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <TodoList />
     </div>
   );
