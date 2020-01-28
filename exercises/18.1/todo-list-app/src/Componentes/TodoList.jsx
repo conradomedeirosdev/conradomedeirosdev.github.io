@@ -4,11 +4,23 @@ import Todo from './Todo'
 
 
 class TodoList extends Component {
+
+  static mathRandon(){
+    return Math.random();
+  }
+  constructor(props){
+    super(props)
+    state = {
+      id: TodoList.mathRandon,
+      value: "",
+      done: false,
+    }
+  }
   render(){
     const todos = [
       {
         "id": Date.now(),
-        "value": "Buy milk",
+        "value": "",
         "done": false
       },
       {
