@@ -1,0 +1,9 @@
+body {
+  background-color: whitesmoke;
+}
+
+.text-primary {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

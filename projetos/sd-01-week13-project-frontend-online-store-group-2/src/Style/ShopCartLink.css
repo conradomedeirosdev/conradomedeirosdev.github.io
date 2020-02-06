@@ -1,0 +1,24 @@
+.icon-cart {
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-left: -40px;
+}
+
+.content {
+  height: 45px;
+  position: relative;
+  width: 45px;
+}
+
+.number-cart {
+  background-color: yellow;
+  border-radius: 100%;
+  bottom: 0;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 20px;
+}

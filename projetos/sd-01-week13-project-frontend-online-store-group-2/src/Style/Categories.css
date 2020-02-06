@@ -1,0 +1,30 @@
+.categories-methods{
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  display: flex;
+  height: 77px;
+  justify-content: center;
+  list-style: none;
+  width: 343px;
+}
+.categories{
+  background: #fff;
+  display: flex;
+}
+
+.label-categories{
+  color: #0A1034;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600; 
+  line-height: 21px;
+}
+
+
+.categories-methods input[type="radio"]:checked + label {
+    background-color: #594CA9; 
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+.header{
+  align-items: center;
+  background: #594CA9;
+  display: flex;
+  height: 83px;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo{
+  padding-left: 70px;
+}
+.categories{
+  display: flex;
+  flex-direction: column;
+}
+.container-content{
+  display: flex;
+}
