@@ -1,0 +1,29 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+h1, h2, img, p{
+    padding-top: 40px;
+    margin: auto 0;
+    width: 50%;
+}
+.controler{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    position: absolute;
+    left: 400px;
+    top: 700px;
+}
+select > #bg, #color-text, #font-family{
+    margin-top: 20px;
+}
+#font-heigth, #line-height{
+    margin-top: 20px;
+}
