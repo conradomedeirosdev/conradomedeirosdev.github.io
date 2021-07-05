@@ -13,6 +13,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         justify-content: space-around;
     }
     .articles {
@@ -21,18 +22,237 @@ body {
         padding: 20px;
         column-count: 3;
     }
+    .articles {
+        max-width: 100%;
+        height: 100%;
+        padding: 20px;
+        column-count: 1;
+    }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 460px){
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+    .header{
+        width: 100%;
+    }
+    .word-style {
+        text-shadow: -2px -2px 2px #11a36a;
+    }
+    .hero-title {
+        font-family: 'mugglenewsregular';
+        font-size: 40px;
+        width: 60%;
+        color: blueviolet;
+        text-align: center;
+    }
+    .section-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .giphy-embed {
+        filter: grayscale(100%);
+        width: 100%;
+        height: 100%;
+    }
+    .nav > ul {
+        display: flex;
+        flex-direction: column;        
+        text-align: center;
+        list-style: none;
+        font-weight: bold;
+        font-family: 'mugglenewsregular', monospace;
+        font-size: 16px; 
+    }
+    li {
+        padding: 5px 0;
+        text-align: center;
+        
+    }
+    .menu {
+        padding: 5px;
+        text-decoration: none;
+        color: blueviolet;
+        font-family: 'mugglenewsregular', monospace;
+        font-size: 20px;
+        text-align: center;
+    }
+    .block-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .articles {
+        max-width: 80%;
+        height: 100%;
+        padding: 20px;
+        column-count: 1;
+    }
+    .btn-more {
+        padding: 10px 30px;
+        color: blueviolet;
+        border: 2px solid blueviolet;
+        background-color: transparent;
+        font-weight: bold;
+        font-family: 'mugglenewsregular', monospace;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: -2px -2px 2px #11a36a;
+    }
+    .top-dev {
+        margin: 50px 0;
+    }
+    .top {
+        width: 100%;
+        margin: 0 auto;  
+    }
+    .content-top {
+        width: 80%;
+        padding-top: 50px;
+        border: 2px solid blueviolet;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    ol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    ol>li {
+        list-style-type: none;
+        font-family: 'mugglenewsregular';
+        font-size: 35px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .top-link {
+        text-decoration: none;
+        color: blueviolet;
+        padding: 5px;
+        margin: 10;
+    }
+    h2 {
+        font-family: 'mugglenewsregular';
+        font-size: 40px;
+        color: blueviolet;
+        padding: 20px 0;
+    }
+    .img-icon {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .small {
+        width: 7%;
+    }
+    .article1 {
+        font-weight: 400;
+        padding: 20px 0;
+        color: black;
+    }
+    .title-end {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    p {
+        font-family: 'Times New Roman', serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .logo-shild {
+        animation-name: logo-shild;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+    }
+    .hero-title::before {
+        content: "";
+        border: 1px;
+        width: 80%;
+        height: 4px;
+        display: flex;
+        background: black;
+        margin: 10px auto;
+    }
+    .hero-title::after {
+        content: "";
+        border: 1px;
+        width: 80%;
+        height: 4px;
+        display: flex;
+        background: black;
+        margin: 10px auto;
+    }
+    .top-trophy {
+        width: 15%;
+    }
+    .nimbus-sell {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #icon-nimbus {
+        width: 50%;
+    }
+    .scale-up {
+        animation-iteration-count: 1;
+        animation-duration: 0.4s;
+        animation-name: scale-up-center;
+        transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+        animation-fill-mode: both;
+    }
+    .style-animation {
+        animation: scale-up-ver-top 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    .star-rotate {
+        width: 20%;
+        animation-name: star-rotate;
+        animation-duration: 700ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: steps(5, end);
+    }
+    .footer-style {
+        width: 100%;
+        background-color: #c6c6c6;
+        justify-content: center;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 760px) and (min-width: 460px) {
+    body{
+        margin: 0 auto;
+    }
     .word-style {
         text-shadow: -2px -2px 2px #11a36a;
     }
     .hero-title {
         font-family: 'mugglenewsregular';
         font-size: 70px;
+        width: 100%;
         color: blueviolet;
         text-align: center;
     }
     .section-title {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -47,27 +267,15 @@ body {
         display: flex;
         justify-content: space-around;
         list-style: none;
-        padding: 20px 0;
         font-weight: bold;
         font-family: 'mugglenewsregular', monospace;
-        font-size: 20px;
+        font-size: 18px;
         color: blueviolet;
     }
     .menu {
         padding: 10px;
         text-decoration: none;
         color: blueviolet;
-    }
-    .color-back {
-        width: 10%;
-    }
-    .menu:hover {
-        padding: 10px;
-        animation-duration: 100ms;
-        animation-timing-function: ease;
-        background-color: blueviolet;
-        color: white;
-        box-shadow: -2px -2px 2px #11a36a;
     }
     .block-content {
         display: flex;
@@ -83,18 +291,6 @@ body {
         font-family: 'mugglenewsregular', monospace;
         font-size: 20px;
         text-align: center;
-    }
-    .btn-more:hover {
-        padding: 10px;
-        background-color: blueviolet;
-        animation-duration: 100ms;
-        animation-timing-function: ease;
-        color: white;
-        font-weight: bold;
-        font-family: 'mugglenewsregular', monospace;
-        font-size: 20px;
-        text-align: center;
-        box-shadow: -2px -2px 2px #11a36a;
     }
     .top-dev {
         margin: 50px;
@@ -132,7 +328,64 @@ body {
         padding: 5px;
         margin: 10;
     }
-    .top-link:hover {
+    .word-style {
+        text-shadow: -2px -2px 2px #11a36a;
+    }
+    .hero-title {
+        font-family: 'mugglenewsregular';
+        font-size: 70px;
+        width: 100%;
+        color: blueviolet;
+        text-align: center;
+    }
+    .section-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .giphy-embed {
+        filter: grayscale(100%);
+        width: 100%;
+        height: 100%;
+    }
+    .nav>ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-weight: bold;
+        font-family: 'mugglenewsregular', monospace;
+        font-size: 18px;
+        color: blueviolet;
+    }
+    .menu {
+        padding: 10px;
+        text-decoration: none;
+        color: blueviolet;
+    }
+    .block-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn-more {
+        padding: 10px;
+        color: blueviolet;
+        border: 2px solid blueviolet;
+        background-color: transparent;
+        font-weight: bold;
+        font-family: 'mugglenewsregular', monospace;
+        font-size: 20px;
+        text-align: center;
+    }
+    .top-dev {
+        margin: 50px;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         animation-duration: 100ms;
         animation-timing-function: ease;
         border: 2px solid blueviolet;
@@ -181,7 +434,7 @@ body {
     .hero-title::before {
         content: "";
         border: 1px;
-        width: 700px;
+        width: 80%;
         height: 4px;
         display: flex;
         background: black;
@@ -190,7 +443,7 @@ body {
     .hero-title::after {
         content: "";
         border: 1px;
-        width: 700px;
+        width: 80%;
         height: 4px;
         display: flex;
         background: black;
@@ -198,20 +451,6 @@ body {
     }
     .top-trophy {
         width: 15%;
-    }
-    #star {
-        margin-top: 20px;
-        width: 15%;
-        animation-name: star-flyer;
-        animation-delay: 3s;
-        animation-duration: 3s;
-        animation-iteration-count: 3;
-        animation-direction: alternate;
-        animation-timing-function: ease-out;
-        animation-fill-mode: forwards;
-    }
-    #star:hover {
-        animation-play-state: paused;
     }
     .nimbus-sell {
         width: 100%;
@@ -222,13 +461,6 @@ body {
     }
     #icon-nimbus {
         width: 50%;
-        /* animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        margin-left: 30px;
-        margin-top: 5px;
-        cursor: pointer; */
     }
     .scale-up {
         animation-iteration-count: 1;
@@ -291,6 +523,7 @@ body {
         display: flex;
         justify-content: space-around;
         list-style: none;
+        width: 100%;
         padding: 20px 0;
         font-weight: bold;
         font-family: 'mugglenewsregular', monospace;
@@ -307,11 +540,13 @@ body {
     }
     .menu:hover {
         padding: 10px;
+        transition: background-color 0.5s ease;
         animation-duration: 100ms;
         animation-timing-function: ease;
         background-color: blueviolet;
         color: white;
         box-shadow: -2px -2px 2px #11a36a;
+        transition: ;
     }
     .block-content {
         display: flex;
@@ -401,7 +636,7 @@ body {
         max-width: 60%;
         height: 100%;
         padding: 20px;
-        column-count: 4;
+        column-count: 3;
         align-self: flex-start;
     }
     .article1 {
@@ -468,17 +703,10 @@ body {
     }
     #icon-nimbus {
         width: 30%;
-        /* animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        margin-left: 30px;
-        margin-top: 5px;
-        cursor: pointer; */
     }
     .scale-up {
         animation-iteration-count: 1;
-        animation-duration: 0.4s;
+        animation-duration: 2.4s;
         animation-name: scale-up-center;
         transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
         animation-fill-mode: both;
@@ -544,34 +772,28 @@ body {
 
 @keyframes scale-up-center {
     0% {
-        transform: scale(1) translate(0, 0) rotate(0deg) skew(0deg);
+        transform: scale(1) translate(0, -50px) rotate(0deg) skew(0deg);
     }
     50% {
+        transform: scale(1) translate(0, -50px) rotate(0deg) skew(0deg);
+        
+    }
+    80% {
+        transform: scale(1) translate(0, -50px) rotate(360deg) skew(0deg);
         margin-left: 0%;
         opacity: 1;
     }
     90% {
-        transform: scale(1.5) translate(0, -50px) rotate(360deg) skew(0deg);
+        transform: scale(1) translate(0, 0px)skew(0deg);
+        margin-left: 0%;
+        opacity: 1;
     }
     100% {
         margin-left: 100%;
         opacity: 0;
-        transform: scale(1.5) translate(0, 0) rotate(360deg) skew(160deg);
+        transform: scale(1.5) translate(0, 0) skew(160deg);
     }
 }
-
-@keyframes floating {
-    from {
-        transform: translate(0, 0px);
-    }
-    65% {
-        transform: translate(0, 15px);
-    }
-    to {
-        transform: translate(0, -0px);
-    }
-}
-
 @keyframes star-flyer {
     0% {
         margin-left: 0;

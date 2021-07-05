@@ -15,11 +15,4 @@ window.onload = function () {
         }
     }
     clickArticle();
-    // let animationScale = ;
-    // function animationScaleStyle() {
-    //     for (let i = 0; i < length; i++) {
-    //         text.children[i].style['animation-delay'] = animationDelay;
-    //     }
-    // }
-    // animationScaleStyle();
 }
